@@ -1,0 +1,72 @@
+.App{
+  display: flex;
+  /* height: 10000px; */
+  justify-content: center;
+  align-items: center;
+}
+.accordion{
+  width: 500px;
+ 
+}
+.item{
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 25px 20px;
+  outline-color: black;
+  min-height: 30px;
+  font-size: larger;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+.content{
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.2s cubic-bezier(0, 1, 0, 1);
+}
+.contentshow{
+  
+  height: auto;
+  max-height: 999px;
+  transition: all 0.2s cubic-bezier(1, 0, 1, 0);
+  justify-content:space-evenly;
+  text-align: left;
+  
+}
+th,td{
+  /* border: 2px solid; */
+  padding-left: 10px;
+  
+  
+}
+.data{
+  padding-left:  60px;
+  
+
+}
+.searchbar{
+  display: flex;
+  line-height: 30px;
+  margin: 30px auto;
+  padding: 5px;
+  font-size: larger;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.button {
+  
+  background-color: white; 
+  color: black; 
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-left: 15px ;
+  margin-top: 15px;
+  font-size: medium;
+}
